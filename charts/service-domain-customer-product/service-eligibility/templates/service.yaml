@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "service-domain-customer-product/service-eligibility.fullname" . }}
+  labels:
+    app: {{ template "service-domain-customer-product/service-eligibility.name" . }}
+    chart: {{ template "service-domain-customer-product/service-eligibility.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "service-domain-customer-product/service-eligibility.name" . }}
+    release: {{ .Release.Name }}

@@ -1,0 +1,9 @@
+{
+  "requestedProductServiceProperties" : "product properties",
+  "customerProductServiceNextBestAssessmentResult" : "products list",
+  "customerReference" : "CR67890",
+  "customerProductServiceProfile" : "eligibility profile content",
+  "customerProductServiceProfileReference" : "CPPR7234642",
+  "customerProductServiceNextBestAssessmentReference" : "NBAR723646",
+  "productServiceType" : "cards"
+}

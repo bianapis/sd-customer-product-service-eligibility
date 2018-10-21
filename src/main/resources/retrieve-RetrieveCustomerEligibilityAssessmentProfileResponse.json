@@ -1,0 +1,8 @@
+{
+  "customerProductServiceTypeEligibility" : "customerProductServiceTypeEligibility",
+  "customerReference" : "CR67890",
+  "customerProductServiceProfile" : "eligibility profile content",
+  "customerProductServiceTypeUsage" : "customerProductServiceTypeUsage",
+  "customerProductServiceProfileReference" : "CPPR7234642",
+  "productServiceType" : "credit card"
+}
